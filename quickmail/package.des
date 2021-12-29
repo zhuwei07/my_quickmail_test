@@ -1,0 +1,14 @@
+<packageDefine name="quickmail" version="1" type="cpp" includedir="." platform="all">
+	<parameter/>
+	<depend>
+	</depend>
+	<cppfile>
+	</cppfile>
+	<headfile>
+		<file name="quickmail.h"/>
+	</headfile>
+	<libfile>
+		<file name="quickmail"/>
+	</libfile>
+	<command/>
+</packageDefine>
