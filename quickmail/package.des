@@ -3,12 +3,14 @@
 	<depend>
 	</depend>
 	<cppfile>
+		<file name="quickmail.c"/>
+		<file name="smtpsocket.c"/>
 	</cppfile>
 	<headfile>
 		<file name="quickmail.h"/>
+		<file name="smtpsocket.h"/>
 	</headfile>
 	<libfile>
-		<file name="quickmail"/>
 	</libfile>
 	<command/>
 </packageDefine>

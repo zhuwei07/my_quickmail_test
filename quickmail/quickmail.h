@@ -24,9 +24,9 @@
 
 #ifndef __INCLUDED_QUICKMAIL_H
 #define __INCLUDED_QUICKMAIL_H
+#define BUILD_QUICKMAIL_STATIC
 
 #include <stdio.h>
-
 /*! \cond PRIVATE */
 #ifdef _WIN32
 #if defined(BUILD_QUICKMAIL_DLL)

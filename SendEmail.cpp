@@ -1,16 +1,17 @@
-#define BUILD_QUICKMAIL_STATIC
+#define _CRT_SECURE_NO_WARNINGS
+#define _WINSOCK_DEPRECATED_NO_WARNINGS
 
 #include "quickmail.h"
 #include <stdio.h>
 
-#define FROM        "aldenzhu@163.com"
+#define FROM        "aldenzhu0908@126.com"
 #define TO          "zhuwei930908@outlook.com"
 //#define CC          "otheruser@domain.com"
 //#define BCC         "otheruser@domain.com"
-#define SMTPSERVER  "smtp.163.com"
+#define SMTPSERVER  "smtp.126.com"
 #define SMTPPORT    25
-#define SMTPUSER    "aldenzhu"
-#define SMTPPASS    "zhuwei930908"
+#define SMTPUSER    "aldenzhu0908@126.com"
+#define SMTPPASS    "DCXZKJUTOJSEHHQQ"
 
 void list_attachment_callback(quickmail mailobj, const char* filename, quickmail_attachment_open_fn email_info_attachment_open, quickmail_attachment_read_fn email_info_attachment_read, quickmail_attachment_close_fn email_info_attachment_close, void* callbackdata)
 {
